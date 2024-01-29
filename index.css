@@ -1,0 +1,27 @@
+#table1{
+ background-color: pink;
+ color: red;
+text-align: center;
+}
+.order{
+    background-color: greenyellow;
+    color: brown;
+}
+#head{
+    text-align: center;
+    font-size: 100px ;
+    color: blue;
+}
+.head1{
+    background-color: blueviolet;
+
+}
+.order1{
+    background-color: greenyellow;
+}
+.unlist{
+    color:red;
+}
+#table2{
+    background-color:pink ;
+}

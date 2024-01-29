@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    
+    <script>
+        $(document).ready(function(){
+            $("#demo").click(function(){
+                $("#demo1").slideDown("slow");
+            });
+            $("#demo1").click(function(){
+                $("#demo2").slideDown("slow");
+            });
+        });
+        
+    </script>
+    <style>
+        #demo,#demo1,#demo2{
+          padding:50px ;
+          text-align:center;
+          background-color:yellow;
+          border:solid 1px;
+           } 
+          #demo1{
+              padding:50px;
+              display:none;
+           }  
+           #demo2{
+              padding:50px;
+              display:none;
+          }
+          </style>
+</head>
+<body>
+    <div id="demo">click to slideDown panel</div>
+    <div id="demo1">hello world</div>
+    <div id="demo2">welcome</div>
+</body>
+</html>

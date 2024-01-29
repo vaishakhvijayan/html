@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready (function(){
+            $("button").click(function(){
+                $("#box1").fadeIn (0) ;
+                $("#box2").fadeIn (2000);
+                $("#box3").fadeIn (3000); })
+        })
+    </script>
+</head>
+<body>
+    <br>
+    <div id="box1" style="width: 80px;height:80px ;background-color: yellow; display:none;">
+    </div>
+    <div id="box2" style="width:80px ;height: 80px; background-color: red;display: none;">
+    </div>
+    <div id="box3" style="width: 80px;height: 80px; background-color: green;display: none;">
+    </div>
+    <br>
+    <button>click</button>
+</body>
+</html>

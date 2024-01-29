@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          var reverse,reminder,n,temp;
+          reverse=0;
+          
+          n=parseInt(prompt("enter a number"));
+          temp=n;
+        while(n>0)
+          {
+           reminder=n % 10;
+           reverse=reverse*10+reminder;
+           n=parseInt(n/10);
+          }
+        if(reverse==temp)
+          {
+           window.alert("it is pallindrome number");
+          }
+        else
+          {
+            window.alert("it is not pallindrome number");
+          }
+    </script>
+    
+</body>
+</html>
